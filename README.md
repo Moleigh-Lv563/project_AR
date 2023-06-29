@@ -16,8 +16,7 @@ The development work for the assignment research will be done here.
 * Variables that have no specific meaning, such as loop variables in a for statement, should be commented out to briefly describe their use.
 \<HTML\>
 * Stylesheets and script files are basically described in one file each.
-<br>
-<br>
+
 ### Japanese\<ja-JP\>
 # projects_AR
 課題研究の開発作業はここで行います。
