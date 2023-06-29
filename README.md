@@ -1,3 +1,23 @@
+### English\<en-US\>
+# project_AR
+The development work for the assignment research will be done here.
+
+## Common notes
+* In principle, the source code in the development of each assignment should be highly independent.
+* Even minor updates should be disseminated and reported in some form.
+* Unify notation for smooth description. See next section for details.
+
+## Uniformity of notation
+\<Basic Notation\>
+* As a rule, variable names should be declared in camelCase.
+* Function names should also be declared in camelCase.
+* Variables and function names should be numbered consecutively, with _(underscore)xx (two digits) following the variable or function name.
+  * ex) hensuu_01, hensuu_02, hensuu_03
+* Variables that have no specific meaning, such as loop variables in a for statement, should be commented out to briefly describe their use.
+\<HTML\>
+* Stylesheets and script files are basically described in one file each.
+<br>
+<br>
 ### Japanese \<ja-JP\>
 # projects_AR
 課題研究の開発作業はここで行います。
@@ -16,22 +36,3 @@
 * for文におけるループ変数など、特異な意味を持たない変数はコメントアウトで用途を簡潔に記すこと。
 \<HTML\>
 * stylesheetやscriptファイルは基本的に一つのファイルの中に書くこと。
-
-### English\<en-US\>
-## project_AR
-The development work for the assignment research will be done here.
-
-## Common notes
-* In principle, the source code in the development of each assignment should be highly independent.
-* Even minor updates should be disseminated and reported in some form.
-* Unify notation for smooth description. See next section for details.
-
-## Uniformity of notation
-\<Basic Notation\>
-* As a rule, variable names should be declared in camelCase.
-* Function names should also be declared in camelCase.
-* Variables and function names should be numbered consecutively, with _(underscore)xx (two digits) following the variable or function name.
-  * ex) hensuu_01, hensuu_02, hensuu_03
-* Variables that have no specific meaning, such as loop variables in a for statement, should be commented out to briefly describe their use.
-\<HTML\>
-* Stylesheets and script files are basically described in one file each.
