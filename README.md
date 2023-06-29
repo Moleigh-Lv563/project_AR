@@ -1,4 +1,4 @@
-\<ja-JP\>
+### Japanese \<ja-JP\>
 # projects_AR
 課題研究の開発作業はここで行います。
 
@@ -11,7 +11,7 @@
 \<HTML\>
 
 
-\<en-US\>
+### English\<en-US\>
 ## project_AR
 The development work for the assignment research will be done here.
 
