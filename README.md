@@ -18,7 +18,7 @@ The development work for the assignment research will be done here.
 * Stylesheets and script files are basically described in one file each.
 <br>
 <br>
-### Japanese \<ja-JP\>
+### Japanese\<ja-JP\>
 # projects_AR
 課題研究の開発作業はここで行います。
 
