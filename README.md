@@ -14,7 +14,7 @@ The development work for the assignment research will be done here.
 * Variables and function names should be numbered consecutively, with _(underscore)xx (two digits) following the variable or function name.
   * ex) hensuu_01, hensuu_02, hensuu_03
 * Variables that have no specific meaning, such as loop variables in a for statement, should be commented out to briefly describe their use.
-\<HTML\>
+\<html\>
 * Stylesheets and script files are basically described in one file each.
 
 ### Japanese\<ja-JP\>
@@ -33,5 +33,5 @@ The development work for the assignment research will be done here.
 * 変数、および関数名に連番を振る場合、_(アンダースコア)xx(二桁)の形を変数、関数名の後ろにつけるようにすること。
   * 例) hensuu_01, hensuu_02, hensuu_03
 * for文におけるループ変数など、特異な意味を持たない変数はコメントアウトで用途を簡潔に記すこと。
-\<HTML\>
+\<html\>
 * stylesheetやscriptファイルは基本的に一つのファイルの中に書くこと。
