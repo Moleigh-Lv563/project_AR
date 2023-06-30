@@ -17,6 +17,7 @@ The development work for the assignment research will be done here.
 
 \<html\>
 * Stylesheets and script files are basically described in one file each.
+* Tag elements should be entered in lower case.
 
 ### Japanese\<ja-JP\>
 # projects_AR
@@ -37,3 +38,4 @@ The development work for the assignment research will be done here.
 
 \<html\>
 * stylesheetやscriptファイルは基本的に一つのファイルの中に書くこと。
+* タグの要素は小文字で記入すること。
