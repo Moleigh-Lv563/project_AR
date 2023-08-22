@@ -23,13 +23,6 @@ $(window).on('load', function(){
 
 var WinH = window.innerHeight,
     WinW = window.innerWidth;
-$(function(){
-  if ( WinW > 768 ) {
-    $('.top-image').css('height', WinH - 146 + 143 + 'px')
-  } else {
-    $('.top-image').css('height', WinH - 62 + 'px')
-  }
-});
 
 (function($) {
   $.fn.acs = function(options) {
