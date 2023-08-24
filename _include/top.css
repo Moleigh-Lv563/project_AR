@@ -1,0 +1,59 @@
+/* CSS Document */
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+/**********     TOP-IMAGE     **********/
+
+.top-bt{
+  position: relative;
+  width: 80%;
+  max-width: 700px;
+  margin: auto;
+}
+
+.top-bt a {
+  position: absolute;
+  bottom: 50px;
+  font-size: 1.0rem;
+  font-weight: 350;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 0.5rem;
+  color: #fff;
+  background-color: #ff0000;
+  border-bottom: 5px solid #960000;
+  border-radius: 100vh;
+}
+
+.top-bt a:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #ff0a0a;
+  border-bottom: 2px solid #960000;
+}
+
+.bt-overview a {
+  left: 0%;
+}
+
+.bt-use a {
+  right: 0%;
+}
+
+.fa-position-right {
+  position: absolute;
+  top: calc(50% - .5em);
+  right: 1rem;
+}
+
+@media screen and (max-width:769px) {
+  .bt-overview, .bt-use{
+    display: none;
+  }
+}
+
