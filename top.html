@@ -54,7 +54,7 @@
         <!--headerMenu-->
         <ul class="nav">
           <li><a href="#product">PRODUCT<p>製品情報</p></a></li>
-          <li><a href="use.html">USE<p>使い方</p></a></li>
+          <li><a href="#use">USE<p>使い方</p></a></li>
           <li><a href="study.html">STUDY<p>研究概要</p></a></li>
           <li><a href="contact.html">CONTACT<p>お問い合わせ</p></a></li>
         </div>
@@ -64,7 +64,7 @@
     <article class="nav-sp">
       <ul class="sp-menu">
         <li><a href="#product">PRODUCT<p>製品情報</p></a></li>
-        <li><a href="use.html">USE<p>使い方</p></a></li>
+        <li><a href="#use">USE<p>使い方</p></a></li>
         <li><a href="study.html">STUDY<p>研究概要</p></a></li>
         <li><a href="contact.html">CONTACT<p>お問い合わせ</p></a></li>
       </ul>
@@ -78,12 +78,100 @@
       <div class="top-image"></div>
       <div class="top-bt">
         <div class="bt-overview"><a href="#product">詳しく見る<i class="fas fa-angle-right fa-position-right"></i></a></div>
-        <div class="bt-use"><a href="use.html">使ってみる<i class="fas fa-angle-right fa-position-right"></i></a></div>
+        <div class="bt-use"><a href="#use">始めてみる<i class="fas fa-angle-right fa-position-right"></i></a></div>
       </div>
     </article>
     <!--mainArticle-->
     <article class="top-main">
-      <div id="product"></div>
+      <div class="art-title" id="product">
+        <p class="title-head marker">tamakAR(たまかる)って？</p>
+        <p class="title-con">
+          <img src="./_img/logo-font_bl.svg" alt=""><br>
+          <br>
+          tamakARは、ARと学校見学の融合を目指し、<br class="br-sp">
+          学校選びに新たな視点を増やすことを<br class="br-sp">
+          目的としたwebアプリです。<br>
+          <br>
+          「この教室、普段はどんなことに使うんだろう」<br class="br-sp">
+          「これは何に使う道具なんだろう」<br class="br-sp">
+          「この学校のこと、もっと知りたいのに！」<br>
+          学校見学で、こんなことを思ったことはありませんか？<br>
+          tamakARは、これらの疑問や要望を<br class="br-sp">
+          カメラをかざすだけで解決します。<br>
+          <br>
+          今までにない新鮮な学校見学を、<br class="br-sp">
+          そして感動を、<br class="br-sp">
+          このtamakARで体験してみませんか？
+        </p>
+      </div>
+      <div class="art-ar">
+        <p class="ar-head marker">ARって何？</p>
+        <p class="ar-con">
+          Augmented Reality、通称「AR」は<br class="br-sp">
+          日本語では「拡張現実」と呼ばれています。<br>
+          スマートフォンやパソコンのカメラを通し、<br class="br-sp">
+          特定のマーカーを撮影することで、<br class="br-sp">
+          画面にデジタルコンテンツを表示することができる技術です。<br>
+          <br>
+          新たな世界を生み出すVRとは異なり、 <br class="br-sp">
+          現実世界に物体を生み出すことができるため、<br class="br-sp">
+          使い方次第で、より臨場感を生み出すことができます。<br>
+          <br>
+          当サービスでは、学校内にある教室名看板を<br class="br-sp">
+          専用のページで読みとることで教室の案内を行っています。<br>
+          <br>
+          一風変わったARならでは学校見学をお楽しみください。
+        </p>
+      </div>
+      <div class="art-develop">
+        <p class="develop-head marker">開発について</p>
+        <p class="develop-con">
+          主に<a href="https://hiukim.github.io/mind-ar-js-doc/" target="_brank">MindAR</a>というオープンソースの<br class="br-sp">
+          Javascriptライブラリを用いて開発しています。<br>
+          <br>
+          班員は当サイトの設立・運営をしている高橋と、<br class="br-sp">
+          システムの根幹であるARカメラのプログラムを書いた酒井の<br class="br-sp">
+          二名で研究を行っています。<br>
+          <br>
+          研究のさらに詳しい内容は<br class="br-sp"><a href="study.html">研究概要のページ</a>をご覧ください。
+        </p>
+      </div>
+      <div class="art-use" id="use">
+        <p class="use-head">使い方</p>
+        <p class="use-con">
+          <div class="step-list_use">
+            <ul class="step_use">
+              <li>
+                <dl>
+                  <dt><span class="icon_step-num">1</span>カメラを起動</dt>
+                  <dd>下のボタンからカメラを起動してください。</dd>
+                  <dd><a href="ar-app.html" class="btn-use btn-app"><span>Let's Start!</span><i class="fas fa-angle-right fa-position-right"></i></a></dd>
+                  <dd>以下のリーディングバーマークが出たら正常に起動しています。</dd>
+                  <dd><img class="img-reader" src="./_img/img_reader.svg" alt=""></dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt><span class="icon_step-num">2</span>マーカーにかざす</dt>
+                  <dd>教室の扉の隣にある教室名看板にカメラをかざしてみましょう。</dd>
+                  <dd><img class="img-camera" src="./_img/img_camera.svg" alt=""></dd>
+                </dl>
+              </li>
+              <li>
+                <dl>
+                  <dt><span class="icon_step-num">3</span>好きなコンテンツ選び</dt>
+                  <dd>左右の矢印を押して、好きなコンテンツを選んで自由にご覧ください。</dd>
+                  <dd><img class="img-select" src="./_img/img_select.svg" alt=""></dd>
+                  <dd class="border-tips">
+                    <div class="title-tips">Tips</div>
+                    画面上部にある「固定」ボタンを押すと、カメラをマーカーから離しても画面内にコンテンツが残り続けます。
+                  </dd>
+                </dl>
+              </li>
+            </ul>
+          </div>  
+        </p>
+      </div>
     </article>
     <!--footer-->
     <footer class="footer">
@@ -94,7 +182,7 @@
         </div>
         <ul class="f-menu">
           <li><a href="#product"><p>製品情報</p></a></li>
-          <li><a href="use.html"><p>使い方</p></a></li>
+          <li><a href="#use"><p>使い方</p></a></li>
           <li><a href="study.html"><p>研究概要</p></a></li>
           <li><a href="contact.html"><p>お問い合わせ</p></a></li>
         </ul>

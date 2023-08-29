@@ -57,6 +57,13 @@ a {
   visibility: visible;
 }
 
+@media screen and (min-width:780px) {
+  .br-sp {
+    display: none;
+  }
+}
+
+
 /**********     TOP     **********/
 
 .top {
@@ -68,10 +75,10 @@ a {
 .top-image {
   display: flex;
   width: 100%;
-  padding-top: 44.8%;
-  margin-top: 60px;
+  padding-top: 145.83%;
+  
   overflow: hidden;
-  background-image: url(../_img/top.png);
+  background-image: url(../_img/top-sp.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top center;
@@ -105,6 +112,8 @@ a {
   }
 
   .top-image {
+    background-image: url(../_img/top.png);
+    padding-top: 44.6%;
     background-position: top center;
     margin-top: 100px;
   }
@@ -190,9 +199,6 @@ a {
     width: 380px;
   }
 }
-
-@media screen and (min-width:769px) {}
-
 
 /**********     BANNER     **********/
 
