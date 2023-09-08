@@ -1,0 +1,336 @@
+/* CSS Document */
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.marker {
+  background:linear-gradient(transparent 50%, rgba(255, 217, 0, 0.61) 50%);
+  display: inline-block;                                                       
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition:background-size 1.2s;
+}
+
+.marker.on {
+  background-size: 100% 100%;
+}
+
+/**********     TOP-IMAGE     **********/
+
+.top-bt{
+  position: relative;
+  width: 80%;
+  max-width: 700px;
+  margin: auto;
+}
+
+.top-bt a {
+  position: absolute;
+  bottom: 50px;
+  font-size: 1.0rem;
+  font-weight: 350;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 0.5rem;
+  color: #fff;
+  background-color: #ff0000;
+  border-bottom: 5px solid #960000;
+  border-radius: 100vh;
+}
+
+.top-bt a:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #ff0a0a;
+  border-bottom: 2px solid #960000;
+}
+
+.bt-overview a {
+  left: 0%;
+}
+
+.bt-use a {
+  right: 0%;
+}
+
+.fa-position-right {
+  position: absolute;
+  top: calc(50% - .5em);
+  right: 1rem;
+}
+
+@media screen and (max-width:769px) {
+  .bt-overview {
+    display: none;
+  }
+
+  .top-bt {
+    bottom: 320px;
+    right: 22%;
+  }
+}
+
+/**********     TOP-ARTICLE     **********/
+.top-main {
+  color: #333333;
+}
+
+.art-title {
+  position: relative;
+  background-color: #edf2f7;
+}
+.title-head {
+  font-family: 'Noto Sans JP';
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.title-con {
+  font-family: 'Noto Sans JP';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 0px 0 60px 0;
+}
+.title-con img {
+  width: 30%;
+  height: auto;
+}
+
+.art-ar {
+  position: relative;
+  background-color: #ffffff;
+}
+.ar-head {
+  font-family: 'Noto Sans JP';
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.ar-con {
+  font-family: 'Noto Sans JP';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 0px 0 60px 0;
+}
+
+.art-develop {
+  position: relative;
+  background-color: #edf2f7;
+}
+.develop-head {
+  font-family: 'Noto Sans JP';
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.develop-con {
+  font-family: 'Noto Sans JP';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 0px 0 60px 0;
+}
+.develop-con a {
+  text-decoration:underline;
+}
+
+/**********     USE-ARTICLE     **********/
+
+.art-use {
+  position: relative;
+  background-color: #fff;
+}
+.use-head {
+  font-family: 'Noto Sans JP';
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.use-con {
+  font-family: 'Noto Sans JP';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 0px 0 60px 0;
+}
+
+.step_use {
+  font-weight: 600;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  line-height: 24px;
+}
+
+.step_use > li {
+  list-style-type: none;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+}
+
+.step_use > li .icon_step-num {
+  line-height: 2;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  color: #fff;
+  background: #E26B5D;
+  margin: 0 auto 10px;
+  display: block;
+  border-radius: 100vh;
+  position: relative;
+}
+
+.step_use > li .icon_step-num::before {
+  content: "";
+  border: solid transparent;
+  border-width: 7px;
+  border-top-color: #E26B5D;
+  position: absolute;
+  top: calc(100% - 2px);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.step_use > li dl {
+  padding: 30px 20px;
+  margin: 0;
+  border: 3px solid #E26B5D;
+  position: relative;
+}
+
+.step_use > li:not(:first-child) dl::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+  display: inline-block;
+  border-top: 4px solid #E26B5D;
+  border-right: 4px solid #E26B5D;
+  position: absolute;
+  top: calc(50% - 14px);
+  left: -45px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.step_use > li dl dt {
+  font-size: 1.8em;
+  font-weight: 600;
+  color: #E26B5D;
+  -ms-flex-preferred-size: 20%;
+  flex-basis: 20%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.step_use > li dl dd {
+  margin-left: 0;
+}
+
+.btn-use {
+  font-size: 1.2rem;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  padding: 16px 55px 18px 55px;
+  line-height: 1.2;
+  margin: 30px 0px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+a.btn-app {
+  overflow: hidden;
+  color: #fff;
+  border-radius: 0;
+  background: #000;
+}
+a.btn-app span {
+  position: relative;
+  font-size: 75%;
+}
+a.btn-app:before {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  content: '';
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-80%) translateY(-25px);
+  transform: translateX(-80%) translateY(-25px);
+  border-radius: 50%;
+  background: #ff0000;
+}
+a.btn-app:hover:before {
+  width: 400px;
+  height: 400px;
+  -webkit-transform: translateX(-1%) translateY(-175px);
+  transform: translateX(-1%) translateY(-175px);
+}
+
+.img-reader {
+  width: 80px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.img-camera {
+  margin-top: 40px;
+}
+
+.img-select {
+  margin: 40px 0px;
+}
+
+.border-tips {
+  position: relative;
+  padding: 12px;
+  border: 4px #ff0000;
+  border-style: dotted;
+}
+
+.title-tips {
+  position: absolute;
+  top: -1em;
+  padding: 0px 4px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 780px) {
+  .step_use > li:not(:first-child) dl::before {
+    top: -50px;
+    left: 47.5%;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  } 
+}
