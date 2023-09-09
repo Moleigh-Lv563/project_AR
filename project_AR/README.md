@@ -1,3 +1,5 @@
+以下は研究を行う際、班員内でソースコードの書き方に統一性を持たせるために書いたものです。利用者のみなさまは読み飛ばしていただいて結構です。
+
 ### English\<en-US\>
 # project_AR
 The development work for the assignment research will be done here.
