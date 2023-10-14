@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1347.19 1006.15">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #231815;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: 12px;
+      }
+
+      .cls-2 {
+        stroke-width: 8px;
+      }
+
+      .cls-4 {
+        font-family: UDDigiKyokashoNK-B, 'UD Digi Kyokasho NK-B';
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: #231815;
+      }
+
+      .cls-4, .cls-8 {
+        font-size: 120px;
+      }
+
+      .cls-5 {
+        font-size: 65.37px;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8 {
+        font-family: KozGoPr6N-Regular-90ms-RKSJ-H, 'Kozuka Gothic Pr6N';
+      }
+
+      .cls-6 {
+        font-size: 22.14px;
+      }
+
+      .cls-7 {
+        font-size: 40.64px;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-9 {
+        opacity: .15;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <rect class="cls-1" x="608.03" y="304.87" width="544.44" height="544.44"/>
+    <path class="cls-2" d="m656.89,104.93l-150.96,882.14c-1.69,9.88-11.06,16.51-20.93,14.82L19.08,922.16c-9.87-1.69-16.51-11.06-14.82-20.93L155.22,19.08c1.69-9.87,11.07-16.51,20.93-14.82l465.91,79.73c9.88,1.69,16.51,11.07,14.82,20.93Z"/>
+    <rect class="cls-1" x="238.38" y="367.71" width="184.39" height="184.39"/>
+    <path class="cls-2" d="m277.01,45.99h255.59v34.67c0,6.62-5.38,12-12,12h-231.59c-6.62,0-12-5.38-12-12v-34.67h0Z" transform="translate(17.49 -67.29) rotate(9.71)"/>
+    <circle class="cls-1" cx="880.25" cy="535.5" r="64.71"/>
+    <circle class="cls-1" cx="724.37" cy="535.5" r="64.71"/>
+    <text class="cls-8" transform="translate(969.67 577.09)"><tspan x="0" y="0">室</tspan></text>
+    <text class="cls-5" transform="translate(659.66 690.51)"><tspan x="0" y="0">example room</tspan></text>
+    <text class="cls-4" transform="translate(720.92 242.45) rotate(4.64)"><tspan x="0" y="0">こんな看板</tspan></text>
+    <line class="cls-3" x1="691.94" y1="134.16" x2="722.08" y2="264.48"/>
+    <line class="cls-3" x1="1341.96" y1="199.47" x2="1278.63" y2="312.76"/>
+    <polygon class="cls-9" points="291.23 270.19 283.35 316.21 215.95 304.68 204.41 372.08 158.39 364.21 177.8 250.78 291.23 270.19"/>
+    <polygon class="cls-9" points="236.02 592.78 228.14 638.83 114.71 619.42 134.13 505.99 180.15 513.87 168.62 581.24 236.02 592.78"/>
+    <polygon class="cls-9" points="546.43 313.86 527.02 427.29 480.97 419.41 492.51 352.01 425.13 340.48 433.01 294.45 546.43 313.86"/>
+    <polygon class="cls-9" points="456.71 561.19 502.76 569.07 483.35 682.5 369.92 663.09 377.8 617.04 445.18 628.57 456.71 561.19"/>
+    <rect class="cls-9" x="181.74" y="414.16" width="310.13" height="32.12" transform="translate(77.39 -50.65) rotate(9.71)"/>
+    <circle class="cls-1" cx="330.57" cy="445.82" r="21.91"/>
+    <circle class="cls-1" cx="277.78" cy="445.82" r="21.91"/>
+    <text class="cls-7" transform="translate(360.86 459.91)"><tspan x="0" y="0">室</tspan></text>
+    <text class="cls-6" transform="translate(255.86 498.32)"><tspan x="0" y="0">example room</tspan></text>
+  </g>
+</svg>
